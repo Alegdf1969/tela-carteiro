@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felipe Carteiro | Privacy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f0f0f0;
+            color: #1a1a1a;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .phone {
+            width: 100%;
+            max-width: 420px;
+            background: white;
+            min-height: 100vh;
+            box-shadow: 0 0 30px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 14px 18px;
+            background: white;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            color: #111;
+        }
+
+        .logo span {
+            color: #ff6b00;
+        }
+
+        .globe {
+            font-size: 18px;
+            opacity: 0.6;
+        }
+
+        .banner {
+            width: 100%;
+            height: 170px;
+            object-fit: cover;
+            display: block;
+            background: #ddd;
+        }
+
+        .profile-section {
+            padding: 0 16px 16px;
+            position: relative;
+        }
+
+        .profile-pic {
+            width: 88px;
+            height: 88px;
+            border-radius: 50%;
+            border: 4px solid white;
+            object-fit: cover;
+            margin-top: -44px;
+            background: #ddd;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .stats {
+            display: flex;
+            gap: 14px;
+            margin: 12px 0 6px;
+            font-size: 13px;
+            color: #666;
+        }
+
+        .stats span {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .name {
+            font-size: 19px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            margin-top: 2px;
+        }
+
+        .verified {
+            color: #1d9bf0;
+            font-size: 16px;
+        }
+
+        .username {
+            color: #888;
+            font-size: 14.5px;
+            margin: 1px 0 8px;
+        }
+
+        .bio {
+            font-size: 14.5px;
+            line-height: 1.4;
+            color: #333;
+        }
+
+        .ler-mais {
+            color: #ff6b00;
+            font-size: 13.5px;
+            margin-top: 3px;
+            display: inline-block;
+            font-weight: 500;
+        }
+
+        .section-title {
+            font-size: 15.5px;
+            font-weight: 600;
+            margin: 20px 0 10px;
+            padding: 0 16px;
+        }
+
+        .plans {
+            padding: 0 16px;
+        }
+
+        .plan-btn {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(90deg, #ff9a4d, #ff6b00);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 50px;
+            margin-bottom: 10px;
+            font-weight: 600;
+            font-size: 15.5px;
+            border: none;
+            width: 100%;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(255, 107, 0, 0.22);
+            text-decoration: none;
+        }
+
+        .plan-btn:hover {
+            opacity: 0.95;
+            transform: scale(0.99);
+        }
+
+        .promo-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 6px 16px 8px;
+            font-size: 14.5px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .footer-stats {
+            display: flex;
+            justify-content: space-around;
+            padding: 18px 16px;
+            border-top: 1px solid #f0f0f0;
+            margin-top: 8px;
+            font-size: 13.5px;
+            color: #ff6b00;
+            font-weight: 500;
+        }
+
+        .footer-stats span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="phone">
+        <!-- Header -->
+        <div class="header">
+            <div class="logo">privacy<span>.</span></div>
+            <div class="globe">🌐</div>
+        </div>
+
+        <!-- Banner -->
+        <img src="banner-felipe.jpg" alt="Banner" class="banner">
+
+        <div class="profile-section">
+            <!-- Foto de perfil -->
+            <img src="perfil-felipe.jpg" alt="Perfil" class="profile-pic">
+
+            <!-- Stats -->
+            <div class="stats">
+                <span>🖼️ 287</span>
+                <span>🎬 198</span>
+                <span>🔒 6</span>
+                <span>❤️ 14.8K</span>
+            </div>
+
+            <!-- Nome e usuário -->
+            <div class="name">
+                Felipe Carteiro
+                <span class="verified">✓</span>
+            </div>
+            <div class="username">@ocarteirofelipe</div>
+
+            <!-- Bio -->
+            <div class="bio">
+                Sou o Felipe, o seu carteiro dotado. Ativo e bem tarado. Aqui você vai me ver gozando, comendo e fazendo de tudo. Conteúdo exclusivo todo dia. Assina agora e vem ser meu putinho.
+            </div>
+        </div>
+
+        <!-- Assinaturas -->
+        <div class="section-title">Assinaturas</div>
+        <div class="plans">
+            <a href="https://compraonlline.online/pay/xc" class="plan-btn" target="_blank">
+                <span>1 Mês</span>
+                <span>R$ 19,90</span>
+            </a>
+        </div>
+
+        <!-- Promoções -->
+        <div class="promo-header">
+            <span>Promoções</span>
+            <span style="font-size:12px;">⌃</span>
+        </div>
+        <div class="plans">
+            <a href="https://compraonlline.online/pay/xl" class="plan-btn" target="_blank">
+                <span>3 Meses + (Bônus)</span>
+                <span>R$ 29,90</span>
+            </a>
+            <a href="https://compraonlline.online/pay/xz" class="plan-btn" target="_blank">
+                <span>Vitalício + (WhatsApp)</span>
+                <span>R$ 59,90</span>
+            </a>
+        </div>
+
+        <!-- Footer stats -->
+        <div class="footer-stats">
+            <span>📱 312 Postagens</span>
+            <span>🎬 489 Mídias</span>
+        </div>
+    </div>
+</body>
+</html>
